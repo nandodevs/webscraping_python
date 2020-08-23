@@ -2,7 +2,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-res = requests.get('http://gofilmes.band/genero/lancamentos')
+res = requests.get('linkdosite')
 res.encoding = 'utf-8'
 
 soup = BeautifulSoup(res.text, 'html.parser')
